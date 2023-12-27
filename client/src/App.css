@@ -1,0 +1,43 @@
+:root {
+  /* COLORS */
+  --color1: #8b7356;
+  --color2: #ffeccc;
+  --color3: #e69c24;
+  --color4: #5e96c2;
+
+  --white: #eee;
+  --black: #111;
+
+  /* SIZES */
+  --size-1: clamp(0.31rem, 2.08vw + -0.1rem, 1.56rem);
+  --size-2: clamp(0.39rem, 2.82vw + -0.17rem, 2.08rem);
+  --size-3: clamp(0.49rem, 3.81vw + -0.27rem, 2.78rem);
+  --size-4: clamp(0.61rem, 5.15vw + -0.42rem, 3.7rem);
+  --size-5: clamp(0.76rem, 6.95vw + -0.63rem, 4.93rem);
+  --size-6: clamp(0.95rem, 9.37vw + -0.92rem, 6.58rem);
+  --size-7: clamp(1.19rem, 12.62vw + -1.33rem, 8.77rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
